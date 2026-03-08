@@ -3,8 +3,6 @@
 
 # Two-Stage Multi-Drone Multi-Target Association
 
-**Laplacian-Guided Feature Enhancement and SGMM-Based Error Filtering Approach**
-
 Official implementation of the paper:
 **“Two-Stage Multi-Drone Multi-Target Association: Laplacian-Guided Feature Enhancement and SGMM-Based Error Filtering Approach”**
 
