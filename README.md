@@ -4,7 +4,7 @@ Official implementation of the paper: **“Two-Stage Multi-Drone Multi-Target As
 
 ## Method update
 
-We have substantially improved the method described in our paper. The feature enhancement network has been replaced with LightGlue, using the pretrained weight file `weights/superpoint_lightglue.pth`. The model is then trained on the MDMT dataset.
+Based on the original paper, we have substantially improved the method. To pursue better generalization capability, we remove the Laplacian- and position-guided attention modules and instead adopt a standard attention mechanism. Meanwhile, the feature enhancement network is replaced with LightGlue, using the pretrained weight file `weights/superpoint_lightglue.pth`. The model is subsequently trained on the MDMT dataset.
 
 Our experiments show that the resulting model achieves an MDA score above 0.4 and has strong generalization performance. **Association results on our dataset** is a test image from one of our in-house engineering projects.
 
