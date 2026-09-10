@@ -8,6 +8,10 @@ We have substantially improved the method described in our paper. The feature en
 
 Our experiments show that the resulting model achieves an MDA score above 0.4 and has strong generalization performance. **Association results on our dataset** is a test image from one of our in-house engineering projects.
 
+## Association results on our dataset
+
+![Association results on our dataset](<Association%20results%20on%20our%20dataset.png>)
+
 ## Training configuration
 
 - Set the batch size to `bt=8` during training.
