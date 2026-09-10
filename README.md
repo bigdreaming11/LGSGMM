@@ -18,6 +18,8 @@ Our experiments show that the resulting model achieves an MDA score above 0.4 an
 - Load the pretrained LightGlue weight file `weights/superpoint_lightglue.pth`.
 - Keep the learning rate and decay schedule exactly as defined in the code. Modifying either setting can substantially reduce performance.
 
+The [training loss curve](<train%20loss.png>) shows stable convergence and can be used as a reference.
+
 ## Usage
 
 We welcome the use of this model in both academic and engineering projects. In our tests, the model can still associate previously unseen target categories that do not appear in the MDMT dataset, including military targets, with good accuracy.
