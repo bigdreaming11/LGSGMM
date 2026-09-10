@@ -8,6 +8,8 @@ We have substantially improved the method described in our paper. The feature en
 
 Our experiments show that the resulting model achieves an MDA score above 0.4 and has strong generalization performance. **Association results on our dataset** is a test image from one of our in-house engineering projects.
 
+test_weight.pth  is the test weight file and can be directly used for evaluation.
+
 ## Association results on our dataset
 
 ![Association results on our dataset](<Association%20results%20on%20our%20dataset.png>)
